@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Dataset files (通常数据集文件较大，建议不上传)
+dataset/OBBCrop/imageIR/
+dataset/OBBCrop/images/
+dataset/OBBCrop/labels/
+dataset/OBBCrop/labelsRGB/
+dataset/VEDAI/imageIR/
+dataset/VEDAI/images/
+dataset/VEDAI/labels/
+
+# Training results and model weights
+runs/
+*.pt
+*.pth
+*.onnx
+
+# Image results
+img_result_corrected/
+result/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
