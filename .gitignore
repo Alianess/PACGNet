@@ -19,16 +19,6 @@ dataset/VEDAI/imageIR/
 dataset/VEDAI/images/
 dataset/VEDAI/labels/
 
-# Training results and model weights
-runs/
-*.pt
-*.pth
-*.onnx
-
-# Image results
-img_result_corrected/
-result/
-
 # IDE
 .vscode/
 .idea/
