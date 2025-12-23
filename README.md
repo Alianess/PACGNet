@@ -51,15 +51,15 @@ Illustrates the hierarchical structure of the Pyramidal Adaptive Cross-Gating Ne
 
 
 ### 🎯 Multimodal Detection Results  
-Visualization of predictions on the DroneVehicle dataset (Red boxes: Model predictions; Green boxes: Ground truth):  
+Visualization of predictions on the DroneVehicle dataset:  
 ![Multimodal Detection Results](img/detect.png)  
-*Figure 2: Comparison of RGB-Infrared multimodal fusion detection under different lighting scenarios. PACGNet outperforms baseline models in detecting small objects and complex backgrounds.*  
+*Figure 2: Qualitative comparison on the VEDAI dataset. Our PACGNet demonstrates comprehensive improvements over the baseline. It not only reduces false negatives and suppresses false positives/classification errors, but also provides more precise localization for correctly identified targets.*  
 
 
 ### 🔥 Feature Heatmap Analysis  
 Feature response distribution of key model layers (Highlighted areas indicate target regions of interest):  
 <img src="img/heatmap.png" width="600" alt="Feature Heatmap">  
-*Figure 3: Response heatmap after cross-modal feature fusion. PACGNet focuses more accurately on vehicle targets, with significantly reduced responses to background interference.*  
+*Figure 3: Visualization comparing feature activations: Original images, Baseline heatmaps, and PACGNet heatmaps. PACGNet demonstrates enhanced focus encompassing the entire vehicle relative to the Baseline.*  
 
 
 ## 📚 Citation  
