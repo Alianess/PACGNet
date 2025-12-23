@@ -4,7 +4,6 @@
 ## 📄 Paper Information  
 - **arXiv Link**: [arXiv:2512.18291](https://arxiv.org/abs/2512.18291)  
 - **Field**: Computer Vision and Pattern Recognition (`cs.CV`)  
-- **Target Journal**: *Image and Vision Computing*  
 
 
 ## 🎯 Key Experimental Results  
