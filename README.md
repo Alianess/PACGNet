@@ -9,7 +9,7 @@
 ## 🎯 Key Experimental Results  
 | Dataset       | mAP50 (Test Set) | Note                  |  
 |---------------|------------------|-----------------------|  
-| DroneVehicle  | 81.7%            | State-of-the-Art (SOTA) |  
+| DroneVehicle  | 82.2%            | State-of-the-Art (SOTA) |  
 | VEDAI         | 82.1%            | State-of-the-Art (SOTA) |  
 
 
