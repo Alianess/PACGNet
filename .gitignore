@@ -11,13 +11,9 @@ env.bak/
 venv.bak/
 
 # Dataset files (通常数据集文件较大，建议不上传)
-dataset/OBBCrop/imageIR/
-dataset/OBBCrop/images/
-dataset/OBBCrop/labels/
-dataset/OBBCrop/labelsRGB/
-dataset/VEDAI/imageIR/
-dataset/VEDAI/images/
-dataset/VEDAI/labels/
+dataset/
+
+runs/val/
 
 # IDE
 .vscode/

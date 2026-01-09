@@ -13,31 +13,14 @@ import train
 train.IR_support = True
 
 if __name__ == '__main__':
-    model = YOLO('runs/train/VEDAI-1024/weights/best.pt') # 选择训练好的权重路径
-    model.val(data='dataset/VEDAI/data.yaml',
-              split='val', # split可以选择train、val、test 根据自己的数据集情况来选择.
-              imgsz=1024,
+    model = YOLO(r'E:\workspace\PACGNet\runs\train\drone-RIFusion-ADD\weights\best.pt') # 选择训练好的权重路径
+    model.val(data=r'E:\workspace\PACGNet\dataset\OBBCrop\drone2.yaml',
+              split='test', # split可以选择train、val、test 根据自己的数据集情况来选择.
+              imgsz=640,
               batch=8,
-              # iou=0.53,
+              iou=0.5,
               # rect=False,
               save_json=True, # if you need to cal coco metrice
               project='runs/val',
-              name='Vedai no change',
+              name='test',
               )
-
-#0.792 -- 0.784
-#0.794 -- 0.786
-#0.798 -- 0.788
-#0.8   -- 0.791
-#0.805 -- 0.794
-#0.810 -- 0.798
-#0.821 -- 0.805
-#0.825 -- 0.807
-#0.831 -- 0.809
-#0.837 -- 0.811 0.609
-#0.839 -- 0.812 0.611              0.840  --  0.809
-#0.84114  0.813 0.613
-#0.84291  0.814
-#0.84545  0.814 0.615
-#0.84575  0.814 0.615
-#0.84599  0.814
