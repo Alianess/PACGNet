@@ -25,7 +25,7 @@ The datasets used in the experiments are available through the following channel
 
 ### Preprocessed Datasets (Ready-to-Train)  
 - **Quark Cloud Disk**:  
-  [Download Link]([https://pan.quark.cn/s/097092895eb4](https://pan.quark.cn/s/a9e57ea7e839)) (9.6GB, includes preprocessed annotations and images)  
+  [Download Link](https://pan.quark.cn/s/a9e57ea7e839) (9.6GB, includes preprocessed annotations and images)  
 
 
 ## 📖 Core Contributions  
